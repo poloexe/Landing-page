@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.navbar .header-logo{
+    margin-left: 130px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.navbar .header-links{
+    margin-right: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .header-links li a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+    transition: 0.3s ease;
+}
+
+.navbar .header-links li a:hover{
+    color: #3882f6;
+    font-weight: bold;
+    border-bottom: 5px solid #f9faf8;
+}
+
+.navbar .header-links li{
+    list-style: none;
+    padding-left: 50px;
+}
+
+.navbar .header-links li:nth-last-of-type(1){
+    padding-right: 50px;
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.header .container{
+    margin-left: 130px;
+}
+
+.header .container .hero-main-text{
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.header .image{
+    margin-right: 220px;
+}
+
+.header .image img{
+    height: 230px;
+    width: 300px;
+}
+
+.header .container p{
+    color: #e5e7eb;
+}
+
+.shop-now-btn{
+    margin-top: 20px;
+    width: 100px;
+    text-align: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 4px 9px;
+}
+
+.header .container .shop-now-btn a{
+    color: #f9faf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section .info-section .section-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 400px;
+}
+
+.section .info-section{
+    margin: 30px 0 100px 0;
+}
+
+#img-1, #img-2, #img-3, #img-4{
+    height: 120px;
+    width: 140px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+.section .info-section h1{
+    padding-bottom: 30px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.section .info-section .section-img div p{
+    text-align: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 70px 0;
+    margin-bottom: 100px;
+}
+
+.section .quote p{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author{
+    padding-left: 636px;
+    font-weight: bold;
+}
+
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    border: 2px solid #3882f6;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding:25px 100px;
+    height: 100px;
+}
+
+.sign-up .sign-up-message h3{
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.sign-up .sign-up-message p{
+    color: #e5e7eb;
+    font-weight: 300;
+}
+
+.sign-up-btn{
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    margin-left: 130px;
+    padding: 5px 40px;
+}
+
+.sign-up-btn a{
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 50px 0;
+}
+
+.footer p{
+    color: #f9faf8;
+    font-weight: 300;
+}
